@@ -1,0 +1,35 @@
+.content {
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+}
+
+.dialogsItems {
+    padding: 40px;
+}
+
+.dialogsItems .dialog {
+margin: 10px;
+}
+
+.active {
+    color: skyblue;
+}
+
+.messageItems {
+    padding: 40px;
+}
+
+.messageItems .message {
+margin: 10px;
+}
+
+.userLink img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 200%;
+}
+
+.userLink {
+    margin: 30px;
+}

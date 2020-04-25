@@ -1,0 +1,14 @@
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 200%;
+}
+.selectedPage {
+    color: rgb(255, 0, 255);
+    text-decoration: overline;
+}
+
+.currentPage {
+    color: rgb(0, 255, 255);
+    text-decoration: overline;
+}

@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 174, 255);
+  background-image: linear-gradient(10deg, rgb(28, 29, 31) 65%, rgb(255, 251, 0) 200%);
+  box-sizing: border-box;
+}
+
+.app-wrapper {
+  margin: 0 auto 0 auto;
+  width: 1200px;
+  
+  display: grid;
+  grid-template-areas:
+"h h"
+"c n";
+ grid-template-rows: 60px 1fr;
+  grid-template-columns: 10fr 2fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-image: linear-gradient(170deg,rgba(6, 95, 83, 0.753) 1%, rgba(102, 12, 110, 0.151) 10%);
+   
+}
+
+
+
+
+
+
+

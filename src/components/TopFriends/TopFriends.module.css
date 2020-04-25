@@ -1,0 +1,18 @@
+
+.active {
+    color: skyblue;
+}
+
+.userLink img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 200%;
+}
+
+.dialog {
+    display: grid;
+}
+.topFriendList {
+    display: inline-flex;
+}
