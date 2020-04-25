@@ -74,7 +74,7 @@ let AppContainer = compose(withRouter, connect(mapStateToProps, { initializeApp 
 
 const ShootingStarApp = () => {
 	return (
-		<HashRouter basename = {process.env.PUBLIC_URL}>
+		<HashRouter>
 			<Provider store={store}>
 				<AppContainer />
 			</Provider>
