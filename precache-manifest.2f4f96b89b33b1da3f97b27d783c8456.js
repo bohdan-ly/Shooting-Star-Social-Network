@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd75d0fedd2546463885435844fa5905",
+    "revision": "107d789e4daa55f4681417f6a707aefe",
     "url": "/Shooting-Star-Social-Network/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shooting-Star-Social-Network/static/css/5.0ab0ac3b.chunk.css"
   },
   {
-    "revision": "92016750bfdf49eb32d4",
+    "revision": "816f65ef08a27c1770fd",
     "url": "/Shooting-Star-Social-Network/static/css/main.6b4d6877.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shooting-Star-Social-Network/static/js/5.2d06ac61.chunk.js"
   },
   {
-    "revision": "92016750bfdf49eb32d4",
-    "url": "/Shooting-Star-Social-Network/static/js/main.d394bf50.chunk.js"
+    "revision": "816f65ef08a27c1770fd",
+    "url": "/Shooting-Star-Social-Network/static/js/main.c858c4af.chunk.js"
   },
   {
     "revision": "453a356b946115aa2852",
