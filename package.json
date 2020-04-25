@@ -1,5 +1,5 @@
 {
-  "name": "shooting-star",
+  "name": "package",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://twelvegeater.github.io/Shooting-Star-Social-Network/",
@@ -43,5 +43,19 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwelveGEater/Shooting-Star-Social-Network.git"
+  },
+  "keywords": [
+    "social-network"
+  ],
+  "author": "TwelveGEater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwelveGEater/Shooting-Star-Social-Network/issues"
   }
 }
