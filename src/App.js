@@ -10,7 +10,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import Preloader from './components/common/preloader/Preloader';
 import { initializeApp } from './redux/app-reducer';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/redux-store';
 import Music from './components/Music/Music'
@@ -74,11 +74,11 @@ let AppContainer = compose(withRouter, connect(mapStateToProps, { initializeApp 
 
 const ShootingStarApp = () => {
 	return (
-		<BrowserRouter>
+		<HashRouter basename = {process.env.PUBLIC_URL}>
 			<Provider store={store}>
 				<AppContainer />
 			</Provider>
-		</BrowserRouter>
+		</HashRouter>
 	);
 };
 
