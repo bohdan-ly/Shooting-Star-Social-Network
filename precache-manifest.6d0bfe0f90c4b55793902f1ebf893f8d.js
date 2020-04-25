@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "562752104c340847d1be109675118e5f",
+    "revision": "bd75d0fedd2546463885435844fa5905",
     "url": "/Shooting-Star-Social-Network/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shooting-Star-Social-Network/static/css/3.b34ed16b.chunk.css"
   },
   {
-    "revision": "b1a048bcbcab8c14d5d2",
+    "revision": "b91f092acc5e43bf86f8",
     "url": "/Shooting-Star-Social-Network/static/css/4.0997d91d.chunk.css"
   },
   {
@@ -16,32 +16,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shooting-Star-Social-Network/static/css/5.0ab0ac3b.chunk.css"
   },
   {
-    "revision": "bb3c753257e1ef41d961",
+    "revision": "92016750bfdf49eb32d4",
     "url": "/Shooting-Star-Social-Network/static/css/main.6b4d6877.chunk.css"
   },
   {
-    "revision": "52f8106fbb1ef1c5525b",
-    "url": "/Shooting-Star-Social-Network/static/js/2.d396910c.chunk.js"
+    "revision": "efb02849679354f68402",
+    "url": "/Shooting-Star-Social-Network/static/js/2.613dae05.chunk.js"
   },
   {
     "revision": "e9f311f605a1f42c1008",
     "url": "/Shooting-Star-Social-Network/static/js/3.05ecf35d.chunk.js"
   },
   {
-    "revision": "b1a048bcbcab8c14d5d2",
-    "url": "/Shooting-Star-Social-Network/static/js/4.e620ffa7.chunk.js"
+    "revision": "b91f092acc5e43bf86f8",
+    "url": "/Shooting-Star-Social-Network/static/js/4.996096de.chunk.js"
   },
   {
     "revision": "9475931307688cbaee46",
     "url": "/Shooting-Star-Social-Network/static/js/5.2d06ac61.chunk.js"
   },
   {
-    "revision": "bb3c753257e1ef41d961",
-    "url": "/Shooting-Star-Social-Network/static/js/main.f89deee9.chunk.js"
+    "revision": "92016750bfdf49eb32d4",
+    "url": "/Shooting-Star-Social-Network/static/js/main.d394bf50.chunk.js"
   },
   {
-    "revision": "7fa3d04d8b90b6bccf64",
-    "url": "/Shooting-Star-Social-Network/static/js/runtime~main.b2edb333.js"
+    "revision": "453a356b946115aa2852",
+    "url": "/Shooting-Star-Social-Network/static/js/runtime~main.d32d095c.js"
   },
   {
     "revision": "1130a1d6e6aa2ace8db58f7f4d357fb6",
