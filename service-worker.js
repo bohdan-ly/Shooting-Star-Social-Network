@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Shooting-Star-Social-Network/precache-manifest.2f4f96b89b33b1da3f97b27d783c8456.js"
+  "/Shooting-Star-Social-Network/precache-manifest.7158e803812ad742a1bfc1a3c9efd423.js"
 );
 
 self.addEventListener('message', (event) => {
