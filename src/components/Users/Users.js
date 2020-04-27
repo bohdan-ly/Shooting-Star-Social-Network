@@ -9,19 +9,19 @@ let Users = ({ currentPage, totalUsersCount, pageSize, onPageChange, users, ...p
 			<Paginator
 				currentPage={currentPage}
 				onPageChange={onPageChange}
-				totalUsersCount={totalUsersCount}
+				totalItemsCount={totalUsersCount}
 				pageSize={pageSize}
 			/>
 			<div>
-			{users.map((user) => (
-				<User
-					key={user.id}
-					user={user}
-					followingInProgress={props.followingInProgress}
-					unfollow={props.unfollow}
-					follow={props.follow}
-				/>
-			))}
+				{users.map((user) => (
+					<User
+						key={user.id}
+						user={user}
+						followingInProgress={props.followingInProgress}
+						unfollow={props.unfollow}
+						follow={props.follow}
+					/>
+				))}
 			</div>
 		</div>
 	);

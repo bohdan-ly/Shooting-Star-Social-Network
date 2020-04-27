@@ -1,8 +1,19 @@
+.app-wrapper-content {
+    text-align: center;
+}
+
+
 .avatar {
     width: 100px;
     height: 100px;
     border-radius: 200%;
 }
+
+
+.pagination {
+    width: 100%;
+}
+
 .selectedPage {
     color: rgb(255, 0, 255);
     text-decoration: overline;
@@ -11,4 +22,23 @@
 .currentPage {
     color: rgb(0, 255, 255);
     text-decoration: overline;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+    user-select: none;
+    text-decoration: none;
+    float: left;
+}
+
+.pagination .currentPage {
+    display: block;
+    width: 1px;
+    height: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+    float: left;
+    list-style: none;
 }

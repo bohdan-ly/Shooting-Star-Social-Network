@@ -1,0 +1,42 @@
+$primary-color: #444;
+
+body {
+    background-color: $primary-color;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    line-height: 1.5;
+
+}
+
+//Heading
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: 400;
+
+    &.lg heading {
+        font-size: 6rem;
+    }
+}
+
+.app-wrapper {
+    margin: 0 auto 0 auto;
+    width: 1200px;
+
+    display: grid;
+    grid-template-areas:
+        "h h"
+        "c n";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 10fr 2fr;
+    grid-gap: 10px;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-image: linear-gradient(170deg, rgba(6, 95, 83, 0.753) 1%, rgba(102, 12, 110, 0.151) 10%);
+
+}

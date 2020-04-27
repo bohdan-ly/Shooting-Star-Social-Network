@@ -36,7 +36,7 @@ const MyPosts = React.memo((props) => {
 		props.addPost(values.newPostBody);
 	}
 
-	let posts = [...props.posts].reverse().map((dataItem) => <Post value={dataItem.value} like={dataItem.like} />);
+	let posts = [...props.posts].reverse().map((dataItem) => <Post key = {dataItem.id} value={dataItem.value} like={dataItem.like} />);
 	return (
 		<div className={s.content}>
 		<AddPostFormeRedux onSubmit = {addPost}/>
